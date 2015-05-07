@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome to Clay Kids</title>
+<link rel="icon" href="main/assets/img/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="main/assets/img/favicon.png" type="image/x-icon">
+<link href="main/assets/css/jquery-ui.css" rel="stylesheet">
+<link href="main/assets/css/main.css" rel="stylesheet" />
+<script src="main/assets/js/jquery.js"></script>
+<link rel="stylesheet" href="main/assets/css/nivo-slider.css" type="text/css" media="screen" />
+<script src="main/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="main/assets/js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider({
+		controlNav: false,
+		prevText: ' ', 
+                nextText: ' ',
+pauseTime: 9000,  
+		effect: 'fade'
+		});
+});
+</script>
+<!--<link href="main/assets/css/bootstrap.css" rel="stylesheet" />-->
+</head>
+<body>
+<div class="wrapper">
+<center><img src="main/assets/img/logo_main.png" alt="Welcome to Clay Kids"/ style="margin-bottom:15px;margin-top: 10px;width: 200px;"> </center>
+<div class="layer">
+<div class="slider-wrapper">
+  <div id="slider" class="nivoSlider">
+   <img src="main/assets/img/0.jpg" alt=""/> 
+   <img src="main/assets/img/1.jpg" alt=""/> 
+   <img src="main/assets/img/2.jpg" alt=""/> 
+   <img src="main/assets/img/3.jpg" alt=""/>
+   <img src="main/assets/img/4.jpg" alt=""/>
+   <img src="main/assets/img/5.jpg" alt=""/> 
+   </div>
+   
+   <center><a href="main/index.php"><button>Enter</button></a></center>
+</div>
+</body>
+</html>
